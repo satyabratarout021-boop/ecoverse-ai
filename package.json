@@ -1,0 +1,30 @@
+{
+  "name": "ecoverse-ai",
+  "version": "1.0.0",
+  "description": "EcoVerse AI — Smart Village & Smart City Management Platform",
+  "private": true,
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "seed": "npm --prefix server run seed",
+    "test": "npm --prefix server test",
+    "start": "npm --prefix server start"
+  },
+  "keywords": [
+    "smart-city",
+    "smart-village",
+    "threejs",
+    "react",
+    "express",
+    "mongodb",
+    "socketio",
+    "ecoverse",
+    "sustainability",
+    "civic-management"
+  ],
+  "author": "EcoVerse AI Engineering Team",
+  "license": "MIT"
+}
